@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre - Timeline</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <h1 class="logo">P O S</h1>
+    <nav>
+      <ul>
+        <li><a href="evento2019.html">Início</a></li>
+        <li><a href="sobre.html" class="active">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Seção Sobre -->
+  <section id="sobre" class="sobre section">
+    <h2> 2023/2024 - O Regresso à tecnologia</h2>
+    <p>
+      O fim da pandemia trouxe uma nova perspectiva para minha carreira.
+    </p>     
+    <p>Sentia que no local onde estava não proporcionava a mesma realização profissonal que sentia antes dos ocorridos</p>
+    <p>Então descidi retornar à minha paixão inicial que sempre me acompanhou durante toda a minha vida: a tecnologia.</p>
+    <p>Decidi planejar minha transição de carreira, buscando conhecimento de forma autodidata.</p>
+    <p> Essa busca me levou à programação, acendendo em mim uma nova chama para o desenvolvimento de sistemas</p>
+  </section>
+
+  <!-- Footer Moderno -->
+  <footer>
+    <p>&copy; 2025 por Juvenaldo Florentino. Todos os direitos reservados.</p>
+    <div class="social-footer">
+      <!-- E-mail -->
+      <a href="mailto:augustopedro051@gmail.com">
+        <div style="background-color: #bb3c11; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: transform 0.3s;">
+          <i class="fa-solid fa-envelope" style="color: #fff; font-size: 1.5rem;"></i>
+        </div>
+      </a>
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/pedro-augusto-3b7b86352/" target="_blank">
+        <div style="background-color: #0a66c2; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: transform 0.3s;">
+          <i class="fa-brands fa-linkedin" style="color: #fff; font-size: 1.5rem;"></i>
+        </div>
+      </a>
+      <!-- WhatsApp -->
+      <a href="https://api.whatsapp.com/send/?phone=5585986105446&text&type=phone_number&app_absent=0" target="_blank">
+        <div style="background-color: #25D366; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: transform 0.3s;">
+          <i class="fa-brands fa-whatsapp" style="color: #fff; font-size: 1.5rem;"></i>
+        </div>
+      </a>
+    </div>
+  </footer>
+
+  <!-- Hover efeito zoom para todos os círculos -->
+  <script>
+    const circles = document.querySelectorAll('.social-footer div');
+    circles.forEach(c => {
+      c.addEventListener('mouseover', () => c.style.transform = 'scale(1.2)');
+      c.addEventListener('mouseout', () => c.style.transform = 'scale(1)');
+    });
+  </script>
+</body>
+</html>

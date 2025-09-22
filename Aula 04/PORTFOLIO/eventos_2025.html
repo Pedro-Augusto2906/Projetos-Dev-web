@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre - Timeline</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <h1 class="logo">P O S</h1>
+    <nav>
+      <ul>
+        <li><a href="evento2019.html">Início</a></li>
+        <li><a href="sobre.html" class="active">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Seção Sobre -->
+  <section id="sobre" class="sobre section">
+    <h2> 2025| Construindo o Futuro</h2>
+    <p>Iniciei a graduação em Análise e Desenvolvimento de Sistemas (ADS), uma escolha estratégica para focar na prática e me preparar rapidamente para o mercado.</p>
+    <p>Hoje, estou construindo meu primeiro projeto web.</p>
+    <p>Sinto a mesma paixão e ambição que me levaram a iniciar minha jornada na Enfermagem, mas agora em uma nova e empolgante direção.</p>
+
+         
+    </p>
+  </section>
+
+  <!-- Footer Moderno -->
+  <footer>
+    <p>&copy; 2025 por Juvenaldo Florentino. Todos os direitos reservados.</p>
+    <div class="social-footer">
+      <!-- E-mail -->
+      <a href="mailto:augustopedro051@gmail.com">
+        <div style="background-color: #bb3c11; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: transform 0.3s;">
+          <i class="fa-solid fa-envelope" style="color: #fff; font-size: 1.5rem;"></i>
+        </div>
+      </a>
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/pedro-augusto-3b7b86352/" target="_blank">
+        <div style="background-color: #0a66c2; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: transform 0.3s;">
+          <i class="fa-brands fa-linkedin" style="color: #fff; font-size: 1.5rem;"></i>
+        </div>
+      </a>
+      <!-- WhatsApp -->
+      <a href="https://api.whatsapp.com/send/?phone=5585986105446&text&type=phone_number&app_absent=0" target="_blank">
+        <div style="background-color: #25D366; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: transform 0.3s;">
+          <i class="fa-brands fa-whatsapp" style="color: #fff; font-size: 1.5rem;"></i>
+        </div>
+      </a>
+    </div>
+  </footer>
+
+  <!-- Hover efeito zoom para todos os círculos -->
+  <script>
+    const circles = document.querySelectorAll('.social-footer div');
+    circles.forEach(c => {
+      c.addEventListener('mouseover', () => c.style.transform = 'scale(1.2)');
+      c.addEventListener('mouseout', () => c.style.transform = 'scale(1)');
+    });
+  </script>
+</body>
+</html>
